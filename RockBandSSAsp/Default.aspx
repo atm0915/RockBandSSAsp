@@ -3,10 +3,12 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <h1>Home of the Nomadic Stallion</h1>
+        <p class="lead">Your favorite band honoring the Texas indian tribe of the Comanches found in the Great Plains region of Texas with songs like &quot;The Painted Mare&quot; and &quot;A Treeless Winter&quot;.</p>
+        <li><a runat="server" class="btn btn-primary btn-lg" href="~/Tours">Tours</a></li>
     </div>
+
+    
 
     <div class="row">
         <div class="col-md-4">
@@ -20,13 +22,9 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
+             
+            <asp:Image ID="Image1" runat="server" Height="330px" ImageUrl="~/icon.gif" Width="363px" />
+             
         </div>
         <div class="col-md-4">
             <h2>Web Hosting</h2>

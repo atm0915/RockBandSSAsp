@@ -1,17 +1,16 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="RockBandSSAsp.Contact" %>
+﻿<%@ Page Title="Credits" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="RockBandSSAsp.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
     <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
+        Website made using ASP.net by Aiden Madaffri<br />
+        Cup design by Cinco Sturges</address>
+    <address>
+        Made for Ms. Bakers 7th Grade Texas History Class<br />
     </address>
 
     <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+        All original code can be found at the link below<li><a runat="server" href="https://github.com/atm0915/RockBandSSAsp">https://github.com/atm0915/RockBandSSAsp</a></li>
+
     </address>
 </asp:Content>
